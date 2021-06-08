@@ -25,7 +25,6 @@ fetch('./assets/JSON/problem_4.json')
 		}], 
     yAxis: {
     	className: 'highcharts-color-1',
-        min: 0,
         title: {
             text: 'Played Matches'
         },
