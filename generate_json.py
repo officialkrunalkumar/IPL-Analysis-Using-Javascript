@@ -99,11 +99,10 @@ def generate_json4():
         for team in team_names:
             match_played = []
             for season in seasons:
-                if int(season) % 2 == 0:
-                    if season in teams and team in teams[season]:
-                        match_played.append(teams[season][team])
-                    else:
-                        match_played.append(0)
+                if season in teams and team in teams[season]:
+                    match_played.append(teams[season][team])
+                else:
+                    match_played.append(0)
             played_matches.append(match_played)
         information = []
         for iteration in range(len(team_names)):
