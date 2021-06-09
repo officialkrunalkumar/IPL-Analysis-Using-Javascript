@@ -44,7 +44,7 @@ fetch('./assets/JSON/problem_4.json')
     	padding: 10,
         align: 'center',
         verticalAlign: 'top',
-        y: 25,
+        y: 10,
         floating: false,
         backgroundColor:
             Highcharts.defaultOptions.legend.backgroundColor || 'white',
