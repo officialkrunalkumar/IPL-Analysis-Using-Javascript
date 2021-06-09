@@ -25,6 +25,16 @@ fetch('./assets/JSON/problem_1.json')
 		            text: 'Scores'
 		        },
 		    }],
+		tooltip: {
+			valueSuffix: ' Runs'
+		},
+		plotOptions: {
+			bar: {
+				dataLabels: {
+					enabled: true
+				}
+			}
+		},
 	    series:[
 	    	{	
 	    		showInLegend: false,      
