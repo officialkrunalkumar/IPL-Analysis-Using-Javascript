@@ -14,8 +14,7 @@ fetch('./assets/JSON/problem_1.json')
 			    enabled: false
 			},
 	    xAxis:[
-	    {   
-	    	min: 0,
+	    {
 	    	categories: Object.keys(data),   
 		    title: {
 		            text: 'Teams'
