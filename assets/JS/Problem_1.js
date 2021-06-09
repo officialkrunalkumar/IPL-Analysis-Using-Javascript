@@ -12,13 +12,13 @@ fetch('./assets/JSON/problem_1.json')
 	    },
 	    credits: {
 			    enabled: false
-			},
+		},
 	    xAxis:[
 	    {
 	    	categories: Object.keys(data),   
 		    title: {
 		            text: 'Teams'
-		        }
+		    }
 		}],
 	    yAxis: [{
 		        title: {
@@ -30,7 +30,7 @@ fetch('./assets/JSON/problem_1.json')
 	    		showInLegend: false,      
 	    		data: Object.values(data)
 	    	},
-	    ]
+	    ]			
 	});
 	var keys = Object.keys(data);
 	var values = Object.values(data);
