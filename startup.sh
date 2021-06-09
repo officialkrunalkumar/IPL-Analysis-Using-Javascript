@@ -11,4 +11,5 @@ pip3 install -r requirements.txt
 echo "Starting the system..."
 python3 generate_json.py
 python3 -m http.server
+deactivate
 echo "Exiting..."
