@@ -26,6 +26,17 @@ fetch('./assets/JSON/problem_3.json')
 		            text: 'Number of umpires'
 		        },
 		    }],
+		plotOptions: {
+			series: {
+				borderWidth: 0,
+				dataLabels: {
+					enabled: true,
+				}
+			}
+		},
+		tooltip: {
+			valueSuffix: ' Umpires'
+		},
 	    series:[
 	    	{	
 	    		showInLegend: false,      

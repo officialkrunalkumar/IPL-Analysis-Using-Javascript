@@ -26,6 +26,17 @@ fetch('./assets/JSON/problem_2.json')
 		            text: 'Scores'
 		        },
 		    }],
+		plotOptions: {
+			series: {
+				borderWidth: 0,
+				dataLabels: {
+					enabled: true,
+				}
+			}
+		},
+		tooltip: {
+			valueSuffix: ' Runs'
+		},
 	    series:[
 	    	{	
 	    		showInLegend: false,      
